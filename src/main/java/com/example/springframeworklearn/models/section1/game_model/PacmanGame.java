@@ -1,4 +1,4 @@
-package com.example.springframeworklearn.models.game_model;
+package com.example.springframeworklearn.models.section1.game_model;
 
 public class PacmanGame implements GamingConsole {
     @Override

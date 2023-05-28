@@ -1,6 +1,6 @@
 package com.example.springframeworklearn.controllers;
 
-import com.example.springframeworklearn.models.restapi.Course;
+import com.example.springframeworklearn.models.section1.restapi.Course;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

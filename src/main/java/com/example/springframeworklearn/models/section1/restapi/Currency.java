@@ -1,4 +1,4 @@
-package com.example.springframeworklearn.models.restapi;
+package com.example.springframeworklearn.models.section1.restapi;
 
 import org.springframework.stereotype.Component;
 
