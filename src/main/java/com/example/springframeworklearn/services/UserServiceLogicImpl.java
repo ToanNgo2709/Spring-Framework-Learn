@@ -26,11 +26,15 @@ public class UserServiceLogicImpl implements UserServiceLogic {
 
     @Override
     public User findById(Integer id) {
-        return null;
+        return users.stream()
+                .filter(user -> user.getId().equals(id))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override
     public User save(User user) {
-        return null;
+        users.add(user);
+        return user;
     }
 }
